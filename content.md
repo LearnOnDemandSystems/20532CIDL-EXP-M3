@@ -235,7 +235,7 @@ In the Web App \+ SQL blade, click the Create button.
 In the form that displays, perform the following steps:  
 a. In the App name dialog box, create a unique name for your website.  
 b. In the Subscription Group section, select the subscription you wish to use.  
-c. In the Resource Group section, select the Use existing option and then select the 20532 Resource Group from the list.  
+c. In the Resource Group section, select the Use existing option and then select the pre-existing Resource Group from the list.  
 d. Select the App Service plan option.  
 e. In the App Service plan blade, click the Create New button.
 
@@ -251,7 +251,7 @@ e. In the App Service plan blade, click the Create New button.
 e. In the New App Service plan blade, locate the App Service plan dialog box and provide the value SamplePlan.  
 f. In the Location list, select the region that is closest to your location.  
 g. Select the Pricing tier option.  
-h. In the Choose your pricing tier blade, click the View all link.
+h. In the Choose your pricing tier blade, if shown, click the View All link. Otherwise, continue.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -407,7 +407,7 @@ Verify that the web application is successfully published.
 ## COMPLETION MESSAGE
 Results: After completing this exercise, you will have used a publish profile to publish web applications directly to a Web App.
 ### Open an existing ASP.NET web application project
-On the taskbar, click the File Explorer icon. In the Libraries window, go to Allfiles \)F):\\Mod03\\Labfiles\\Starter\\Contoso.Events, and then double-click Contoso.Events.sln.
+On the taskbar, click the File Explorer icon. In the Libraries window, go to Allfiles \)F):\\Mod03\\Labfiles\\Starter\\Contoso.Events, and then double-click Contoso.Events.sln. It may take several minutes for Visual Studio 2015 to fully open.
 
 #### :bulb: KNOWLEDGE
 Note that Known file extensions \)such as .sln) may be hidden. See screenshot. It may also take a while for Visual Studio 2015 to open.
@@ -436,7 +436,7 @@ In the Solution Explorer pane, scroll-down then right-click the Contoso.Events.M
 On the Debug menu, click Start Debugging.
 
 #### :bulb: KNOWLEDGE
-Note: If this is the first time you are creating a build for this solution, NuGet will implicitly restore any missing packages. You do not have to manually restore the missing packages.
+Note: If this is the first time you are creating a build for this solution, NuGet will implicitly restore any missing packages. You do not have to manually restore the missing packages. It may take several minutes to fully open the Web App first time.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -881,7 +881,7 @@ Close RDP session and click OK to disconnect
 
 
 ### Stop VM to save billing charges
-If you are stopping labs for the day, on the vm2032 Overview page in the Azure Portal, click Stop to stop billing charges until you start labs again. When prompted, click Yes to stop the VM.
+If you are stopping labs for the day, on the vm2032 Overview page in the Azure Portal, click Stop to stop billing charges until you start labs again. If prompted, click Yes to stop the VM.
 
 #### :camera: SCREENSHOT
 >LODSProperties
